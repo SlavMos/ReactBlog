@@ -42,6 +42,7 @@ const Main = () => {
             hic laboriosam.
           </p>
         </div>
+        <button>Send</button>
       </div>
     </div>
   );

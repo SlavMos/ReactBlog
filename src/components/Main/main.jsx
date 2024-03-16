@@ -31,7 +31,7 @@ const Main = () => {
 
   const blogPosts = posts.map((item) => {
     return (
-      <div className={s.posts}>
+      <div key={item.id} className={s.posts}>
         <h2>{item.title}</h2>
         <p>{item.description}</p>
       </div>
